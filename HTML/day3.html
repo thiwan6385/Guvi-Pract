@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pseduo_classes</title>
 </head>
 <style>
     p {
@@ -16,9 +16,52 @@
     #para2 {
         border: 0.4em dotted red;
     }
+    #para3 {
+        border: 3px solid green;
+        box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    }
+    a:visited {
+        color: red;
+    }
+    a:link {
+        color:brown;
+    }
+   
+    input:invalid {
+        outline:2px dotted blue;
+        background-color: red;
+    }
+    input:focus {
+        outline: 20x solid red;
+        background-color: yellow;
+    }
+    input:active {
+        background-color: green;
+    }
+    button:hover {
+        background-color: yellow;
+        color: blue;
+    }
+    button:focus {
+        background-color: black;
+        color: white;
+    }
+    button:active {
+        background-color: red;
+        color: white;
+    }
 </style>
 <body>
     <p id="para1">This is a paragraph 1</p>
     <p id="para2">This is a paragraph 2</p>
+    <p id="para3">paragraph with box shaodow</p>
+    <hr>
+<h1>pseduo classes</h1>
+<a href="www.guvi.in">Welcome to Guvi</a>
+<hr>
+<button>save</button>
+<label for="textId">Enter pseduo Class:</label>
+<input type="text" id="textId" minlength="6">
+
 </body>
 </html>
