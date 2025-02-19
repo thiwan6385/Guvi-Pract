@@ -23,3 +23,46 @@ p {
     color: white;
 
 }
+.relative {
+    border: 3px solid black;
+    padding: 2rem;
+    align-items: center;
+    
+}
+.ps1 {
+    border: 3px solid red;
+    height: 10rem;
+    width: 10rem;
+    margin:2rem;
+    display: inline-block;
+
+
+}
+#rel1 {
+    top: 10px;
+    position:fixe
+}
+#rel2 {
+    top: 1000px;
+    position: sticky;
+}
+.box {
+    background: rebeccapurple;
+    color: white;
+    padding: 3rem;
+    width: 45%;
+    border-radius: 5px;
+    
+    transition: width 2s linear 1s, transform 2s linear 1s;
+
+}
+
+div:hover {
+    width: 70%;
+    
+}
+div {
+    transform: rotate(180dec);
+}
+
+
